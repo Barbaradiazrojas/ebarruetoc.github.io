@@ -10852,6 +10852,55 @@ p {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
+#experiencia {
+  background-color: #f8f9fa; /* Fondo ligero para contrastar con los elementos */
+}
+
+.rafariass-title {
+  font-size: 2rem; /* Tamaño de fuente mayor */
+  font-weight: bold; /* Negrita para destacar el título */
+  color: #343a40; /* Color oscuro */
+}
+
+.card {
+  border: none; /* Eliminar borde por defecto */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.2s; /* Efecto al pasar el mouse */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Levantar la tarjeta al pasar el mouse */
+}
+
+.img-branch {
+  max-width: 100%; /* Mantener imagen dentro de su contenedor */
+  height: auto; /* Ajustar altura automáticamente */
+}
+
+.card-body {
+  padding: 20px; /* Espaciado interno */
+  color: #495057; /* Color de texto */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Tamaño de título */
+  font-weight: bold; /* Negrita */
+}
+
+.card-text {
+  font-size: 1rem; /* Tamaño de texto */
+}
+
+.text-muted {
+  color: #6c757d; /* Color para texto secundario */
+}
+
+@media (max-width: 768px) {
+  .card {
+      margin-bottom: 20px; /* Espaciado inferior en dispositivos pequeños */
+  }
+}
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
